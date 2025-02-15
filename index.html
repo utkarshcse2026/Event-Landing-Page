@@ -8,6 +8,7 @@
 </head>
 <body>
     <header class="event-header">
+    <p id="countdown" class="countdown">Loading countdown...</p>
         <div class="container">
             <h1>Capture the Flag: A Thrilling Cybersecurity Challenge</h1>
             <p class="date-time">Friday, December 15, 2024 | 6:00 PM - 9:00 PM GMT+5:30</p>
@@ -29,12 +30,24 @@
                     <li>Network with cybersecurity enthusiasts</li>
                 </ul>
                 <a href="https://forms.gle/DEJDuXFqWmrRfzUeA" class="register-btn">Register Now</a>
+                <form id="inline-registration-form">
+                <input type="text" name="name" placeholder="Full Name" required />
+                <input type="email" name="email" placeholder="Email Address" required />
+                <input type="tel" name="contact" placeholder="Contact Number" required />
+                <button type="submit" class="register-btn">Submit</button>
+                </form>
+
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
+             <div class="social-links">
+               <a href="https://twitter.com/cyberwarriors" target="_blank">Twitter</a> |
+               <a href="https://linkedin.com/in/utkarsh-aggarwal" target="_blank">LinkedIn</a> |
+               <a href="https://github.com/cyberwarriorsclub" target="_blank">GitHub</a>
+            </div>
             <p>Contact the Host: <a href="mailto:Host@cyberwarriorsclub.com">Host@cyberwarriorsclub.com</a></p>
             <p>© 2024 Cyberwarriors Club. All rights reserved.</p>
         </div>
